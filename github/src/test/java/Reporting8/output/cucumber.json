@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-11T11:19:17.509Z",
+        "line": 4,
+        "name": "Write a number",
+        "description": "",
+        "id": "test-calculator;write-a-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter 50 in calculator",
+            "match": {
+              "location": "cucumber12.stepdefination.I_Enter_50_in_the_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "cucumber12.stepdefination.I_press_equal_symbol()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "result should be 50 on screen",
+            "match": {
+              "location": "cucumber12.stepdefination.Then_result_should_be_50_on_screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calculator",
+    "description": "This file describe calculator functionally",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:cucumber12/cucu.feature",
+    "tags": []
+  }
+]
